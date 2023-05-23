@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pokemonItemCard"
+            android:layout_width="@dimen/nullGap"
+            android:layout_height="150dp"
+            android:layout_marginStart="@dimen/maxGap"
+            android:layout_marginTop="@dimen/maxGap"
+            android:layout_marginEnd="@dimen/maxGap"
+            android:backgroundTint="@color/cardBackground"
+            app:cardCornerRadius="@dimen/maxGap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/no_image_placeholder_svg"
+                    android:layout_gravity="center"
+                    android:paddingLeft="16dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/allMaxGap"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textNamePokemon"
+                        android:layout_width="225dp"
+                        android:layout_height="35dp"
+                        android:paddingLeft="@dimen/maxGap"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/nameSize"/>
+
+                    <TextView
+                        android:id="@+id/textType"
+                        android:layout_width="225dp"
+                        android:layout_height="@dimen/maxGap"
+                        android:paddingLeft="@dimen/maxGap"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/nameSize"/>
+
+                    <TextView
+                        android:id="@+id/textRatingPokemon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/minimunSizeText"
+                        android:textColor="@color/ratingColor"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

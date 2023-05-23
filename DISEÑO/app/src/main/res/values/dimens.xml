@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nullGap">0dp</dimen>
+    <dimen name="mediumGap">8dp</dimen>
+    <dimen name="maxGap">16dp</dimen>
+    <dimen name="titleSizeBillboard">25sp</dimen>
+    <dimen name="marginBtn">32dp</dimen>
+    <dimen name="withImage">175dp</dimen>
+    <dimen name="heightImage">125dp</dimen>
+    <dimen name="nameSize">25sp</dimen>
+    <dimen name="marginTopImage">90dp</dimen>
+    <dimen name="marginMax">50dp</dimen>
+    <dimen name="sizeRating">15sp</dimen>
+    <dimen name="marginCenter">183dp</dimen>
+    <dimen name="allMaxGap">32dp</dimen>
+    <dimen name="marginBottonDescrpcion">324dp</dimen>
+    <dimen name="minimunSizeText">15sp</dimen>
+</resources>
